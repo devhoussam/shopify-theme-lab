@@ -216,9 +216,11 @@ $ npm install sass sass-loader --save-dev
 $ yarn add sass sass-loader --dev
 ```
 
-2. Rename `src/css/main.css` to `src/css/main.scss`
+2. Remove `src/css/`
 
-3. Change `import './css/main.css'` to `import './css/main.scss'` in [src/main.js](src/main.js)
+3. Create `src/scss/main.scss`
+
+4. Change `import './css/main.css'` to `import './scss/main.scss'` in [src/main.js](src/main.js)
 
 ### LESS
 1. Run the following command:
